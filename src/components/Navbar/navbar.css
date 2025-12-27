@@ -1,0 +1,121 @@
+.navbar {
+  height: 5rem;
+  width: 95%;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  background: rgba(2, 6, 23, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+  animation: slideDownFade 1s ease-out;
+}
+
+/* Logo on the left */
+.navLogo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #38bdf8; /* neon blue */
+  z-index: 11; /* make sure it stays above nav items */
+}
+
+/* Centered nav links */
+.navItems {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4rem;
+  z-index: 10;
+}
+
+.navItem {
+  color: #c7d2fe;
+  font-size: 1.1rem;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0.4rem 0;
+  transition: 0.3s;
+}
+
+.navItem:hover {
+  color: #38bdf8;
+}
+
+.navItem::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #38bdf8;
+  transition: 0.3s;
+}
+
+.navItem:hover::after {
+  width: 100%;
+}
+
+/* Contact Button on the right */
+.navItemsBtn {
+  background: linear-gradient(135deg, #2563eb, #0ea5e9);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 11;
+}
+
+.navItemsBtn:hover {
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+
+
+/* Hover underline */
+.navItem::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #38bdf8;
+  transition: 0.3s;
+}
+
+.navItem:hover::after {
+  width: 100%;
+}
+
+/* Active scroll section underline */
+.navItem.active::after {
+  width: 100%;
+}
+
+/* Optional: change color of active link text */
+.navItem.active {
+  color: #38bdf8;
+}
+
+
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
