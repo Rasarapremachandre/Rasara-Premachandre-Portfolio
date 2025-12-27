@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Rasara-Premachandre-Portfolio/static/css/main.d43d0b2b.css",
+    "main.js": "/Rasara-Premachandre-Portfolio/static/js/main.df6ecbca.js",
+    "static/media/buildingd.png": "/Rasara-Premachandre-Portfolio/static/media/buildingd.73b180299a707eb757d1.png",
+    "static/media/girlyfs.png": "/Rasara-Premachandre-Portfolio/static/media/girlyfs.bb2028718eba54e7e82a.png",
+    "static/media/furstore.png": "/Rasara-Premachandre-Portfolio/static/media/furstore.f7600151508356883307.png",
+    "static/media/pp.jpg": "/Rasara-Premachandre-Portfolio/static/media/pp.0e8934ac4aa43fac62fd.jpg",
+    "static/media/HCI_Report.pdf": "/Rasara-Premachandre-Portfolio/static/media/HCI_Report.4b376fd341ec6f353bb2.pdf",
+    "static/media/DegreeCompleteLetter.pdf": "/Rasara-Premachandre-Portfolio/static/media/DegreeCompleteLetter.d3f1443308d4a2d60851.pdf",
+    "static/media/Degreecertificate .pdf": "/Rasara-Premachandre-Portfolio/static/media/Degreecertificate .c28f0a5e7515b717d89e.pdf",
+    "static/media/firststYacademictranscript.pdf": "/Rasara-Premachandre-Portfolio/static/media/firststYacademictranscript.a3211d46c60e65564dc9.pdf",
+    "static/media/LambdaTest Software Testing Professional Certificate.pdf": "/Rasara-Premachandre-Portfolio/static/media/LambdaTest Software Testing Professional Certificate.6fecccbd213b2cb15106.pdf",
+    "static/media/pp2.jpeg": "/Rasara-Premachandre-Portfolio/static/media/pp2.ebd4a24f7443ed450eee.jpeg",
+    "static/media/Programming Foundations Software TestingQA.pdf": "/Rasara-Premachandre-Portfolio/static/media/Programming Foundations Software TestingQA.b967e7861af02fd053f8.pdf",
+    "static/media/SucceedinginSoftwareTesting.pdf": "/Rasara-Premachandre-Portfolio/static/media/SucceedinginSoftwareTesting.044f09d1c52b8d8f8f17.pdf",
+    "static/media/AgileTesting.pdf": "/Rasara-Premachandre-Portfolio/static/media/AgileTesting.7dbd3032853eb6bc6efe.pdf",
+    "static/media/Transcript.pdf": "/Rasara-Premachandre-Portfolio/static/media/Transcript.9fdbaab9f4005eb847cf.pdf",
+    "index.html": "/Rasara-Premachandre-Portfolio/index.html",
+    "main.d43d0b2b.css.map": "/Rasara-Premachandre-Portfolio/static/css/main.d43d0b2b.css.map",
+    "main.df6ecbca.js.map": "/Rasara-Premachandre-Portfolio/static/js/main.df6ecbca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d43d0b2b.css",
+    "static/js/main.df6ecbca.js"
+  ]
+}
