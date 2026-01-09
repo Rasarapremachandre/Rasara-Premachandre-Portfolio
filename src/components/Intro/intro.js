@@ -1,6 +1,8 @@
 import React from 'react';
 import './intro.css';
 import pp2 from '../../assets/pp2.jpeg';
+import CV from "../../assets/CV.pdf";
+
 import { FaLinkedin, FaBehanceSquare } from "react-icons/fa";
 
 const Intro = () => {
@@ -31,19 +33,27 @@ const Intro = () => {
         </div>
 
         <div className="intro-buttons">
-          <button className="btn-primary">Download CV</button>
-            <button 
-              className="btn-outline"
-              onClick={() => {
-                const projectSection = document.getElementById("projects");
-                if (projectSection) {
-                  projectSection.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-            >
-              Projects
-            </button>
-        </div>
+          <a 
+            href={CV} 
+            target="_blank" 
+            rel="noreferrer"
+          >
+            <button className="btn-primary">Download Resume</button>
+          </a>
+
+          <button 
+            className="btn-outline"
+            onClick={() => {
+              const projectSection = document.getElementById("projects");
+              if (projectSection) {
+                projectSection.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            Projects
+          </button>
+</div>
+
       </div>
 
       <div className="intro-right">
