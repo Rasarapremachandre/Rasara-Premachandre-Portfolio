@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Rasara-Premachandre-Portfolio/static/css/main.55fe8545.css",
-    "main.js": "/Rasara-Premachandre-Portfolio/static/js/main.915c8a75.js",
+    "main.css": "/Rasara-Premachandre-Portfolio/static/css/main.6806bf55.css",
+    "main.js": "/Rasara-Premachandre-Portfolio/static/js/main.18efa13f.js",
     "static/media/buildingd.png": "/Rasara-Premachandre-Portfolio/static/media/buildingd.73b180299a707eb757d1.png",
     "static/media/girlyfs.png": "/Rasara-Premachandre-Portfolio/static/media/girlyfs.bb2028718eba54e7e82a.png",
     "static/media/furstore.png": "/Rasara-Premachandre-Portfolio/static/media/furstore.f7600151508356883307.png",
+    "static/media/pp4.png": "/Rasara-Premachandre-Portfolio/static/media/pp4.902cfa12396b93730f76.png",
     "static/media/HCI_Report.pdf": "/Rasara-Premachandre-Portfolio/static/media/HCI_Report.4b376fd341ec6f353bb2.pdf",
     "static/media/DegreeCompleteLetter.pdf": "/Rasara-Premachandre-Portfolio/static/media/DegreeCompleteLetter.d3f1443308d4a2d60851.pdf",
     "static/media/Degreecertificate .pdf": "/Rasara-Premachandre-Portfolio/static/media/Degreecertificate .c28f0a5e7515b717d89e.pdf",
@@ -12,17 +13,16 @@
     "static/media/CV.pdf": "/Rasara-Premachandre-Portfolio/static/media/CV.0a9ac11735db36217727.pdf",
     "static/media/pp123.jpeg": "/Rasara-Premachandre-Portfolio/static/media/pp123.724f3482f13328a55bb9.jpeg",
     "static/media/LambdaTest Software Testing Professional Certificate.pdf": "/Rasara-Premachandre-Portfolio/static/media/LambdaTest Software Testing Professional Certificate.6fecccbd213b2cb15106.pdf",
-    "static/media/pp2.jpeg": "/Rasara-Premachandre-Portfolio/static/media/pp2.ebd4a24f7443ed450eee.jpeg",
     "static/media/Programming Foundations Software TestingQA.pdf": "/Rasara-Premachandre-Portfolio/static/media/Programming Foundations Software TestingQA.b967e7861af02fd053f8.pdf",
     "static/media/SucceedinginSoftwareTesting.pdf": "/Rasara-Premachandre-Portfolio/static/media/SucceedinginSoftwareTesting.044f09d1c52b8d8f8f17.pdf",
     "static/media/AgileTesting.pdf": "/Rasara-Premachandre-Portfolio/static/media/AgileTesting.7dbd3032853eb6bc6efe.pdf",
     "static/media/Transcript.pdf": "/Rasara-Premachandre-Portfolio/static/media/Transcript.9fdbaab9f4005eb847cf.pdf",
     "index.html": "/Rasara-Premachandre-Portfolio/index.html",
-    "main.55fe8545.css.map": "/Rasara-Premachandre-Portfolio/static/css/main.55fe8545.css.map",
-    "main.915c8a75.js.map": "/Rasara-Premachandre-Portfolio/static/js/main.915c8a75.js.map"
+    "main.6806bf55.css.map": "/Rasara-Premachandre-Portfolio/static/css/main.6806bf55.css.map",
+    "main.18efa13f.js.map": "/Rasara-Premachandre-Portfolio/static/js/main.18efa13f.js.map"
   },
   "entrypoints": [
-    "static/css/main.55fe8545.css",
-    "static/js/main.915c8a75.js"
+    "static/css/main.6806bf55.css",
+    "static/js/main.18efa13f.js"
   ]
 }
