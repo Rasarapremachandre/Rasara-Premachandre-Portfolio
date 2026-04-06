@@ -12,7 +12,7 @@ import Degreecertificate from "../../assets/Degreecertificate .pdf";
 import SucceedinginSoftwareTesting from "../../assets/SucceedinginSoftwareTesting.pdf";
 
 export default function Certificate() {
-  const [activeTab, setActiveTab] = useState("degree");
+  const [activeTab, setActiveTab] = useState("qa");
   const scrollRef = useRef(null);
 
   const scroll = (direction) => {
@@ -28,7 +28,7 @@ export default function Certificate() {
 
     degree: [
       { title: "Degree Certificate", issuer: "University of Plymouth, UK", year: "2025", link: Degreecertificate },
-      { title: "Degree Completed Letter", issuer: "University of Plymouth, UK", year: "2025", link: DegreeCompleteLetter },
+      //{ title: "Degree Completed Letter", issuer: "University of Plymouth, UK", year: "2025", link: DegreeCompleteLetter },//
       { title: "First Year Academic Transcript", issuer: "NSBM Green University", year: "2025", link: firststYacademictranscript },
       { title: "Final Transcript", issuer: "University of Plymouth, UK", year: "2025", link: Transcript },
     ],
@@ -70,6 +70,13 @@ export default function Certificate() {
 
         {/* 🔥 TAB BUTTONS */}
         <div className="tab-buttons">
+
+          <button
+            className={activeTab === "qa" ? "tab-btn active" : "tab-btn"}
+            onClick={() => setActiveTab("qa")}
+          >
+            Software Quality Assurance
+          </button>
           
           <button
             className={activeTab === "degree" ? "tab-btn active" : "tab-btn"}
@@ -77,12 +84,7 @@ export default function Certificate() {
           >
             Degree Certificates
           </button>
-          <button
-            className={activeTab === "qa" ? "tab-btn active" : "tab-btn"}
-            onClick={() => setActiveTab("qa")}
-          >
-            Software Quality Assurance
-          </button>
+
 
          {/*
           <button

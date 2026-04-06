@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import pp2 from '../../assets/pp2.jpeg';
+import pp4 from '../../assets/pp4.png';
 import CV from "../../assets/CV.pdf";
 
 import { FaLinkedin, FaBehanceSquare } from "react-icons/fa";
@@ -57,7 +57,7 @@ const Intro = () => {
       </div>
 
       <div className="intro-right">
-        <img src={pp2} alt="Profile" className="intro-img" />
+        <img src={pp4} alt="Profile" className="intro-img" />
       </div>
 
     </section>
